@@ -1,0 +1,14 @@
+h1, p {
+    text-align: center;
+}
+
+#score {
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+}

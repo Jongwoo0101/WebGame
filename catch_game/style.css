@@ -1,0 +1,26 @@
+h1, p {
+    text-align: center;
+}
+
+#score {
+    font-weight: bold;
+}
+
+#gameContainer {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+
+#mole {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    cursor: pointer;
+}
