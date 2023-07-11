@@ -1,4 +1,4 @@
-h1, p {
+body {
     text-align: center;
 }
 
@@ -12,6 +12,7 @@ h1, p {
     border: 1px solid #000;
     position: relative;
     overflow: hidden;
+    margin: auto;
 }
 
 #mole {
