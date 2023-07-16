@@ -3,7 +3,7 @@ var gameContainer = document.getElementById("gameContainer");
 var mole = document.getElementById("mole");
 var scoreDisplay = document.getElementById("score");
 
-gameContainer.addEventListener("click", function() {
+mole.addEventListener("click", function() {
     score++;
     scoreDisplay.textContent = score;
 });
@@ -13,11 +13,11 @@ function moveMole() {
     var maxY = gameContainer.clientHeight - mole.clientHeight;
     var randomX = Math.floor(Math.random() * maxX);
     var randomY = Math.floor(Math.random() * maxY);
-    
+
     mole.style.left = randomX + "px";
     mole.style.top = randomY + "px";
     mole.style.display = "block";
-    
+
     setTimeout(function() {
         mole.style.display = "none";
         setTimeout(moveMole, 1000);
